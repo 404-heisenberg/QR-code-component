@@ -1,0 +1,36 @@
+:root {
+  --bg-color: hsl(212, 45%, 89%);
+  --main-colour: hsl(218, 44%, 22%);
+  --seconday-colour: hsl(216, 15%, 48%);
+  --outfit-font: "Outfit", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: var(--outfit-font);
+}
+
+p {
+  font-size: 1.125rem;
+  color: var(--seconday-colour);
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--main-colour);
+}
+
+main {
+  width: 30%;
+  background: white;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 1em;
+  text-align: center;
+}
+
+main img {
+  width: 100%;
+  max-height: 350px;
+  border-radius: 20px;
+}
