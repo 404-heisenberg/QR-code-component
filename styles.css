@@ -8,20 +8,21 @@
 body {
   background-color: var(--bg-color);
   font-family: var(--outfit-font);
+  margin-top: 3.5rem;
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: var(--seconday-colour);
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.725rem;
   color: var(--main-colour);
 }
 
 main {
-  width: 30%;
+  width: 25%;
   background: white;
   margin: 0 auto;
   border-radius: 20px;
