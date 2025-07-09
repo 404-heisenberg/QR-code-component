@@ -8,16 +8,19 @@
 body {
   background-color: var(--bg-color);
   font-family: var(--outfit-font);
-  margin-top: 3.5rem;
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  margin: 0;
 }
 
 p {
-  font-size: 1rem;
+  font-size: clamp(0.8rem, 1vw, 1rem);
   color: var(--seconday-colour);
 }
 
 h1 {
-  font-size: 1.725rem;
+  font-size: clamp(1.125rem, 1vw, 1.725);
   color: var(--main-colour);
 }
 
@@ -28,6 +31,24 @@ main {
   border-radius: 20px;
   padding: 1em;
   text-align: center;
+}
+
+@media (min-width: 375px) and (max-width: 400px) {
+  main {
+    width: 80%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  main {
+    width: 60%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  main {
+    width: 40%;
+  }
 }
 
 main img {
